@@ -38,6 +38,6 @@
 
     socket.on('typing', data => {
         info.textContent = data.username + " is typing..."
-        setTimeout(() => {info.textContent=''},1000)
+        setTimeout(() => {info.textContent=''},2000)
     })
 })()
